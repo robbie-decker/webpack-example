@@ -5,7 +5,7 @@ import printMe from './print.js';
   const element = document.createElement('div');
   const btn = document.createElement('button');
   
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.innerHTML = _.join(['Hello there', 'webpack'], ' ');
   
   btn.innerHTML = 'Click me and check the console!';
   btn.onclick = printMe;
